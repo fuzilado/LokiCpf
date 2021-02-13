@@ -26,7 +26,7 @@ def main():
         print('\033[1;36mCasa\033[1;33m:\033[1;92m {}'.format(address_data['Nrlogradouro']))
         print('\033[1;36mBairro\033[1;33m:\033[1;92m {}'.format(address_data['Bairro']))
         print('\033[1;36mCep\033[1;33m:\033[1;92m {}'.format(address_data['Cep']))
-        print('\033[1;36mMunicipio\033[1;33m:\033[1;92m {}'.format(address_data['Municipio'])) 
+        print('\033[1;36mCidade\033[1;33m:\033[1;92m {}'.format(address_data['Municipio'])) 
         print('\033[1;36mEstado\033[1;33m:\033[1;92m {}'.format(address_data['Estado']))
         print('\033[1;36mMae\033[1;33m:\033[1;92m {}'.format(address_data['Mae']))
         print('\033[1;36mComplemento\033[1;33m:\033[1;92m {}'.format(address_data['Complemento']))
