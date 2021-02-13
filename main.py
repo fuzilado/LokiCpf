@@ -1,5 +1,6 @@
 import requests
 import os
+from time import sleep
 
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -36,7 +37,65 @@ def main():
         main()
 
     if opt == 'n':
-        print("\033[1;35mVocê escolheu sair, volte sempre meu caro infectado ^-^")
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("""\033[1;31m
++----------------------------------------------------------------------------+
+| Criador: Near Shelby                                                       |
+| Canal: https://www.youtube.com/channel/UCYx02EM3e2h2Nbn2OwJ9voQ/featured   |
+| Git Hub: https://github.com/nearshelby-yt                                  |
+| Instagram: @nearshelby_yt                                                  |
+| Twitter: @NearShelby                                                       |
+| Telegram: @NearShelby_yt                                                   |
++----------------------------------------------------------------------------+
+        """)
+        sleep(1)
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("""\033[1;35m
++----------------------------------------------------------------------------+
+| Criador: Near Shelby                                                       |
+| Canal: https://www.youtube.com/channel/UCYx02EM3e2h2Nbn2OwJ9voQ/featured   |
+| Git Hub: https://github.com/nearshelby-yt                                  |
+| Instagram: @nearshelby_yt                                                  |
+| Twitter: @NearShelby                                                       |
+| Telegram: @NearShelby_yt                                                   |
++----------------------------------------------------------------------------+
+        """)
+        sleep(1)
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("""\033[1;36m
++----------------------------------------------------------------------------+
+| Criador: Near Shelby                                                       |
+| Canal: https://www.youtube.com/channel/UCYx02EM3e2h2Nbn2OwJ9voQ/featured   |
+| Git Hub: https://github.com/nearshelby-yt                                  |
+| Instagram: @nearshelby_yt                                                  |
+| Twitter: @NearShelby                                                       |
+| Telegram: @NearShelby_yt                                                   |
++----------------------------------------------------------------------------+
+        """)
+        sleep(1)
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("""\033[1;32m
++----------------------------------------------------------------------------+
+| Criador: Near Shelby                                                       |
+| Canal: https://www.youtube.com/channel/UCYx02EM3e2h2Nbn2OwJ9voQ/featured   |
+| Git Hub: https://github.com/nearshelby-yt                                  |
+| Instagram: @nearshelby_yt                                                  |
+| Twitter: @NearShelby                                                       |
+| Telegram: @NearShelby_yt                                                   |
++----------------------------------------------------------------------------+
+        """)
+        sleep(1)
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("""\033[1;33m
++----------------------------------------------------------------------------+
+| Criador: Near Shelby                                                       |
+| Canal: https://www.youtube.com/channel/UCYx02EM3e2h2Nbn2OwJ9voQ/featured   |
+| Git Hub: https://github.com/nearshelby-yt                                  |
+| Instagram: @nearshelby_yt                                                  |
+| Twitter: @NearShelby                                                       |
+| Telegram: @NearShelby_yt                                                   |
++----------------------------------------------------------------------------+
+        """)
 
     else:
         print("\033[1;35mTchauzinho +_+")
